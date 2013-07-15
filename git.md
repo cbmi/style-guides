@@ -9,10 +9,13 @@ When creating a new repository, follow the recommendations below to keep your is
 Labels should begin with one of the following prefixes:
 
 - `version` indicates the version of the codebase that the issue is related to.
+    - default label color: `#009800` (green)
 - `type` indicates whether the issues is a bug, feature request, etc.
+    - default label color: `#207de5` (blue)
 - `status` indicates whether the issue will be fixed, is deferred, etc.
+    - default label color: `#a9a9a9` (grey)
 
-Prefixes and the label name suffix should be separated by a colon. For example, `version:2.1`.
+Prefixes and the label name suffix should be separated by a colon. For example, `version:2.1`. All labels with a common prefix should be the same color unless otherwise defined below for particular labels.
 
 #### Version Labels (required)
 
@@ -22,11 +25,14 @@ Version labels should follow the rules below. Each issue must have an version la
 - `version:N.M` Applies directly to the `N.M` release version.
 - `version:future` Does not relate to any planned release version and will be worked on at sometime in the future. These should be reclassified as new versions are planned.
 
+Note, the current major and minor version labels (e.g. `version:2.x` and `version:2.0`) will have a distinct color: `#fbca04` (goldenrod)
+
 #### Type Labels (required)
 
 Type labels for the repository should be limited to those that appear below. Each issue must have a type issue applied to it.
 
 - `type:bug` A a problem with the existing code base. Bugs should contain detailed steps on recreating the bug and the environment in which it was encountered.
+    - label color: `#e11d21` (red)
 - `type:feature` A feature request. These types of issues should fully explain the feature being requested and, if needed, solicit for input from the developers on implementation approaches.
 - `type:refactor` Refactoring of the code base. This does not include any new features and does not fix any bugs.
 - `type:docs` Applicable for issues related to documentation of any kind be it documenting the code or otherwise.
@@ -40,6 +46,7 @@ Status labels for the repository should be limited to those that appear below:
 - `status:wontfix` This issue will not be worked on. This might be because it is a duplicate, it could not be confirmed, etc.
 - `status:deferred` This issue cannot be finished right now. This might be applied when the issue doesn't relate to the current release, it isn't important to fix immediately, etc.
 - `status:needinfo` More information is required before this issue can be addressed. This status will often be applied to bugs that are not reproduceable because reproduction steps are missing but also applies to inadequately explained feature requests, etc.
+    - label color: `#e11d21` (red)
 
 Issues are not required to have a status label because of the following assumptions:
 
