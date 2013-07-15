@@ -15,7 +15,7 @@ Prefixes and the label name suffix should be separated by a colon. For example, 
 Version labels should follow the rules below. Each issue must have an version label applied to it.
 - `version:N.x` Applies to the `N` major release regardless of minor version number. This is essentially a catch all for issues associated with a major release on the whole.
 - `version:N.M` Applies directly to the `N.M` release version.
-- `version:Future Work` Does not relate to any planned release version and will be worked on at sometime in the future. These should be reclassified as new versions are planned.
+- `version:future` Does not relate to any planned release version and will be worked on at sometime in the future. These should be reclassified as new versions are planned.
 
 #### Type Labels (required)
 Type labels for the repository should be limited to those that appear below. Each issue must have a type issue applied to it.
