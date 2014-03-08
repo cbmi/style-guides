@@ -21,11 +21,10 @@ Prefixes and the label name suffix should be separated by a colon. For example, 
 
 Version labels should follow the rules below. Each issue must have an version label applied to it.
 
-- `version:N.x` Applies to the `N` major release regardless of minor version number. This is essentially a catch all for issues associated with a major release on the whole.
 - `version:N.M` Applies directly to the `N.M` release version.
 - `version:future` Does not relate to any planned release version and will be worked on at sometime in the future. These should be reclassified as new versions are planned.
 
-Note, the current major and minor version labels (e.g. `version:2.x` and `version:2.0`) will have a distinct color: `#fbca04` (goldenrod)
+Note, the _current_ minor version label (e.g. `version:2.0`) will have a distinct color: `#fbca04` (goldenrod).
 
 #### Type Labels (required)
 
