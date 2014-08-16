@@ -14,6 +14,8 @@ Labels should begin with one of the following prefixes:
     - default label color: `#207de5` (blue)
 - `status` indicates whether the issue will be fixed, is deferred, etc.
     - default label color: `#a9a9a9` (grey)
+- `area` indicates the area of the code, documentation, or project in general the issue applies to.
+    - default label color: `#5319e7` (purple)
 
 Prefixes and the label name suffix should be separated by a colon. For example, `version:2.1`. All labels with a common prefix should be the same color unless otherwise defined below for particular labels.
 
@@ -37,6 +39,7 @@ Type labels for the repository should be limited to those that appear below. Eac
 - `type:docs` Applicable for issues related to documentation of any kind be it documenting the code or otherwise.
 - `type:community` Catch all for improvement of community-based items such as communication methods, updating contributing docs, planning meetups, etc.
 - `type:idea` A general idea needing more discussion and refinement. This is _NOT_ a feature request. Issues with this label are simply abstract ideas related to the project and may later result in new feature requests but these issues are merely meant to serve as a discussion forum for evaluating and refining the idea itself.
+- `type:question` A question, inquiry or issue.
 
 #### Status Labels (optional)
 
@@ -44,6 +47,7 @@ Status labels for the repository should be limited to those that appear below:
 
 - `status:wontfix` This issue will not be worked on. This might be because it is a duplicate, it could not be confirmed, etc.
 - `status:deferred` This issue cannot be finished right now. This might be applied when the issue doesn't relate to the current release, it isn't important to fix immediately, etc.
+- `status:duplicate` Duplicate of another issue.
 - `status:needinfo` More information is required before this issue can be addressed. This status will often be applied to bugs that are not reproduceable because reproduction steps are missing but also applies to inadequately explained feature requests, etc.
     - label color: `#e11d21` (red)
 
